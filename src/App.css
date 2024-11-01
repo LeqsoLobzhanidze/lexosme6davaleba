@@ -1,0 +1,71 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1c1e26;
+  font-family: Arial, sans-serif;
+}
+
+
+.card {
+  background-color: #2b2d3b;
+  color: #d1d5db;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.card h3 {
+  font-size: 12px;
+  color: #2de0a6;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+
+.card p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+.dice-button {
+  background-color: #2de0a6;
+  color: #1c1e26;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.dice-button:hover {
+  background-color: #28c79e;
+}
